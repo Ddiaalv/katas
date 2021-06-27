@@ -1,17 +1,11 @@
-# Typescript + Jest template
+# Número de teléfono
 
-Proyecto simple pensado únicamente para practicar TDD con Typescript y Jest.
+## Enunciado:
+Escribe una función que acepte un `array de diez integers (entre 0 y 9)`, que `devuelva un string de esos numeros formateados como un número de teléfono`. Ejemplo formato: `(123) 456-7890`.
 
-## ¿Cómo empezar?
+## Ejemplos:
+```jsx
+createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 
-- Descargar repositorio
-- Instalar dependencias
-- Ejecutar en consola: `npm run new:f`
-
-```powershell
-# Por defecto nuestro código se creará dentro de la carpeta src.
-? What path do you want?
-
-# Escribimos el nombre de nuestra funcionalidad.
-? What name do you want? ‣
+createPhoneNumber([1, 1, 1, 1, 1, 1, 1, 1, 1, 1]) // => returns "(111) 111-1111");
 ```
