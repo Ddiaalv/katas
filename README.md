@@ -1,9 +1,15 @@
-# Katas
+# Unir dos strings sin repetir caracteres
 
-Este repositorio es una forma de organizar y tener más a mano todas las Katas que he ido realizando. `Las katas están organizadas por branchs`, por lo que cada branch mostrará el enunciado de esa kata al igual que el código resuelto por mi parte.
+## Enunciado:
 
-## Lista de katas:
+Crea una función a la que le `pasaremos por parámetro dos strings` (sentence1, sentence2). `Devolverá un nuevo string conteniendo las letras de ambas frases sin repetir caracteres` y además `ordenadas por orden alfabético`.
 
-[Phone Number](https://github.com/Ddiaalv/katas/tree/phone-number)
-[Find Short](https://github.com/Ddiaalv/katas/tree/find-short)
-[Detect Pangram](https://github.com/Ddiaalv/katas/tree/detect-pangram)
+## Ejemplos:
+
+```jsx
+longest('aretheyhere', 'yestheyarehere') // returns => "aehrsty"
+
+longest('loopingisfunbutdangerous', 'lessdangerousthancoding') // returns => "abcdefghilnoprstu"
+
+longest('inmanylanguages', 'theresapairoffunctions') // returns =>  "acefghilmnoprstuy"
+```
