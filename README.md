@@ -6,3 +6,4 @@ Este repositorio es una forma de organizar y tener más a mano todas las Katas q
 
 [Phone Number](https://github.com/Ddiaalv/katas/tree/phone-number)
 [Find Short](https://github.com/Ddiaalv/katas/tree/find-short)
+[Detect Pangram](https://github.com/Ddiaalv/katas/tree/detect-pangram)
