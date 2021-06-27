@@ -1,8 +1,17 @@
-# Katas
+# Encontrar la palabra con menos caracteres
 
-Este repositorio es una forma de organizar y tener más a mano todas las Katas que he ido realizando. `Las katas están organizadas por branchs`, por lo que cada branch mostrará el enunciado de esa kata al igual que el código resuelto por mi parte.
+## Enunciado:
 
-## Lista de katas:
+Un `pangrama es una frase que contiene cada letra del alfabeto al menos una vez`. Por ejemplo la frase inglesa 'Extraño pan de col y kiwi se quemó bajo fugaz vaho.' es un pangrama por que se encuentran las letras de la A-Z al menos una vez (las mayúsculas son irrelevantes).
 
-[Phone Number](https://github.com/Ddiaalv/katas/tree/phone-number)
-[Find Short](https://github.com/Ddiaalv/katas/tree/find-short)
+Crea una función que `detecte si ésta es un pangrama`, pasaremos por parámetro una frase (string) y `devolverá true o false` dependiendo del resultado. `Ignoraremos los numeros y los símbolos`.
+
+En este caso solo utilizaremos el alfabeto español.
+
+## Ejemplos:
+
+```jsx
+isPangram('Extraño pan de col y kiwi se quemó bajo fugaz vaho.') // => return true
+
+isPangram('Esto no es un pangrama.') // => return false
+```
