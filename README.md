@@ -8,3 +8,4 @@ Este repositorio es una forma de organizar y tener más a mano todas las Katas q
 - [Find Short](https://github.com/Ddiaalv/katas/tree/find-short)
 - [Detect Pangram](https://github.com/Ddiaalv/katas/tree/detect-pangram)
 - [Two strings to one](https://github.com/Ddiaalv/katas/tree/two-strings-to-one)
+- [Hidden Word](https://github.com/Ddiaalv/katas/tree/hidden-word)
