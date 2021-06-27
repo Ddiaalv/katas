@@ -1,5 +1,15 @@
-# Katas
-Este repositorio es una forma de organizar y tener más a mano todas las Katas que he ido realizando. `Las katas están organizadas por branchs`, por lo que cada branch mostrará el enunciado de esa kata al igual que el código resuelto por mi parte.
+# Encontrar la palabra con menos caracteres
 
-## Lista de katas:
-[Phone Number](https://github.com/Ddiaalv/katas/tree/phone-number)
+## Enunciado:
+
+Escribe una función que `reciba un string de palabras` (no puede estar vacío) y `devuelva la longitud de la palabra más pequeña` de ésta. ener en cuenta que es posible que hayan símbolos... por lo que no se deberían contar como parte de la palabra. Controlaremos únicamente los siguientes: `,.;:-\_\*{}[]¿?¡!"&/`.
+
+## Ejemplos:
+
+```jsx
+findShort('bitcoin take over the world maybe who knows perhaps') // => returns 3
+
+findShort(
+  ':: : ; bitcoin, ta;ke over... the wor***ld: maybe; *who* kno¡ws// perh{}{aps'
+) // => returns 3
+```
