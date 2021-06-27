@@ -1,17 +1,5 @@
-# Typescript + Jest template
+# Katas
+Este repositorio es una forma de organizar y tener más a mano todas las Katas que he ido realizando. `Las katas están organizadas por branchs`, por lo que cada branch mostrará el enunciado de esa kata al igual que el código resuelto por mi parte.
 
-Proyecto simple pensado únicamente para practicar TDD con Typescript y Jest.
-
-## ¿Cómo empezar?
-
-- Descargar repositorio
-- Instalar dependencias
-- Ejecutar en consola: `npm run new:f`
-
-```powershell
-# Por defecto nuestro código se creará dentro de la carpeta src.
-? What path do you want?
-
-# Escribimos el nombre de nuestra funcionalidad.
-? What name do you want? ‣
-```
+## Lista de katas:
+[Phone Number](https://github.com/Ddiaalv/katas/tree/phone-number)
